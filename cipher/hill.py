@@ -47,7 +47,7 @@ def hill_decrypt(ciphertext, key_matrix):
 def main():
     # Example key matrix (must be invertible mod 26)
     key_matrix = np.array([[3, 3],
-                           [2, 5]])
+                          [2, 5]]) 
     
     plaintext = "HELLO"
     ciphertext = hill_encrypt(plaintext, key_matrix)
